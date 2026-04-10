@@ -1,1 +1,7 @@
+<resources>
+    <string name="app_name">AI Chat</string>
+    <string name="welcome_msg">🤖 AI Chat Started...\n</string>
+    <string name="hint_text">Talk to AI...</string>
+    <string name="send_label">SEND</string>
+</resources>
 
