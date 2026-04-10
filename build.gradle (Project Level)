@@ -1,1 +1,23 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.3'
+    }
+}
+
+allprojects {
+    repositories {
+         maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+         maven { url 'https://maven.aliyun.com/repository/public/' }
+         maven { url 'https://maven.aliyun.com/repository/google' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
 
